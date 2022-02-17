@@ -8,7 +8,7 @@ export const Inicio = () => {
     <div className="container mx-auto mb-5">
       <div className="flex flex-col justify-center mt-10 lg:mt-20">
         <h1
-          className="text-center text-4xl font-bold mb-10 lg:mb-20"
+          className="text-center text-2xl md:text-4xl font-bold mb-10 lg:mb-20"
         >Elige una Actividad para Empezar 💰</h1>
 
         <div className="w-full mb-4 flex justify-evenly flex-wrap gap-5">
