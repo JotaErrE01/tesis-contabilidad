@@ -23,6 +23,7 @@ export const Unidades = () => {
 
         <div
           className="rounded overflow-hidden hover:shadow-xl bg-purple-500 text-white py-10 text-center w-4/5 lg:w-auto cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out md:px-32 flex flex-col gap-10 items-center animate__animated animate__fadeIn"
+          onClick={() => { navigate('/unidad2'); }}
         >
           <img className="invert w-28 h-20 md:w-48 md:h-36" src="/svgs/unidad2.svg" alt="Unidad 2" />
           <h2

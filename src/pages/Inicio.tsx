@@ -24,6 +24,7 @@ export const Inicio = () => {
 
           <div
             className="rounded overflow-hidden hover:shadow-xl bg-rose-500 text-white text-3xl px-8 py-10 text-center w-4/5 lg:w-auto cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out animate__animated animate__fadeIn"
+            onClick={() => navigate('/videos')}
           >
             <i className="fas fa-film text-7xl mb-5"></i>
             <h2

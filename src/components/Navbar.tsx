@@ -11,7 +11,7 @@ interface ITopic{
 
 export const Navbar = ({ topics }: Props) => {
   return (
-    <div className="rounded mx-auto mt-5 bg-gradient-to-tr from-blue-600 to-purple-600 via-pink-500 p-1 w-4/5 ">
+    <div className="rounded mx-auto mt-5 bg-gradient-to-tr from-blue-600 to-purple-600 via-pink-500 p-1 w-4/5 text-center">
       <ul id="nav" className="text-2xl rounded font-bold flex justify-evenly flex-wrap gap-5 p-5">
         {
           topics.map((topic, index) => (

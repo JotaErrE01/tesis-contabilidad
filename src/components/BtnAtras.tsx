@@ -3,13 +3,16 @@ import { useNavigate } from 'react-router-dom';
 interface Props {
   route: string;
   showArrow?: boolean;
+  className?: string;
 }
 
-export const BtnAtras = ({ route, showArrow }: Props) => {
+export const BtnAtras = ({ route, showArrow, className = '' }: Props) => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div
+      className={className}
+    >
       {
         showArrow
           ? <i
@@ -33,6 +36,6 @@ export const BtnAtras = ({ route, showArrow }: Props) => {
         </>
       }
 
-    </>
+    </div>
   );
 };
