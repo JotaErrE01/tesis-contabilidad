@@ -20,7 +20,7 @@ export const LibroDiario = () => {
           <img className="lg:w-[30rem] lg:h-[20rem] rounded" src="https://cdn.billomat.com/ext/uploads/2021/09/income-statement-person1-holding-book-with-calculator-on-table-2058137.jpg" alt="Libro Diario" />
         </div>
 
-        <img className="mx-auto my-5" src="/img/libroDiarioEx.PNG" alt="Ejemplo libro Diario" />
+        <img className="mx-auto my-5" src="/img/libroDiarioEx.png" alt="Ejemplo libro Diario" />
 
         <section className="mt-10">
           <h3

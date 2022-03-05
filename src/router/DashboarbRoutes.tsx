@@ -1,10 +1,13 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Inicio } from '../pages/Inicio';
-import { Unidades } from '../pages/unidades/Unidades';
-import { Unidad1 } from '../pages/unidades/unidad1/Unidad1';
-import { Unidad2 } from '../pages/unidades/unidad2/Unidad2';
-import { Videos } from '../pages/videos/Videos';
-import { VideoCard } from '../pages/videos/VideoCard';
+import {
+  Inicio,
+  Unidades,
+  Unidad1,
+  Unidad2,
+  Videos,
+  VideoCard,
+  Problemas
+} from '../pages';
 
 export const DashboarbRoutes = () => {
   return (
@@ -16,7 +19,7 @@ export const DashboarbRoutes = () => {
         <Route path='unidad2/*' element={<Unidad2 />} />
         <Route path='videos' element={<Videos />} />
         <Route path='videoCard' element={<VideoCard />} />
-        {/* <Route path='librosDM' element={<Videos />} /> */}
+        <Route path='problemas/*' element={<Problemas />} />
         {/* <Route path='videos' element={<Videos />} /> */}
         {/* <Route path='videos' element={<Videos />} /> */}
         {/* <Route path='*' element={<Navigate to='/inicio' />} /> */}
