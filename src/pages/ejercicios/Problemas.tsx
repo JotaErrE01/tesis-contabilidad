@@ -1,11 +1,12 @@
 import { BtnAtras } from '../../components/BtnAtras';
 import { Navbar } from '../../components/Navbar';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Problema1 } from './prblemas/Problema1';
+import { Problema1 } from './problemas/Problema1';
+import { Problema2 } from './problemas/Problema2';
 
 const topics = [
   { name: 'Problema 1', to: '1', Component: Problema1 },
-  { name: 'Problema 2', to: '2', Component: Problema1 }
+  { name: 'Problema 2', to: '2', Component: Problema2 }
 ];
 
 export const Problemas = () => {

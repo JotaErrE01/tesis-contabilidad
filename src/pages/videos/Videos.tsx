@@ -33,7 +33,7 @@ export const Videos = () => {
 
           <Card
             className='bg-red-500 w-[30rem] text-2xl lg:text-3xl'
-            icoClass="fas fa-piggy-bank text-6xl lg:text-7xl mb-5"
+            icoClass="fas fa-weight-scale text-6xl lg:text-7xl mb-5"
             text="¿Qué es el Balance Inicial?"
             page='/videoCard?url=https://www.youtube.com/embed/lRJrAqgLmc4&title=¿Qué es el Balance Inicial?'
           />

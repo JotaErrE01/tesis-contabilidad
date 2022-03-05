@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import { BtnSolution } from '../../../components/BtnSolution';
 
 export const Problema1 = () => {
   const [showSolution, setShowSolution] = useState(false);
 
   return (
-    <div>
+    <div className='px-5 lg:px-0'>
       <h1
         className="text-3xl md:text-4xl font-bold text-center mb-10"
       >Realizar el Balance Inicial</h1>
@@ -86,10 +87,7 @@ export const Problema1 = () => {
 
       {
         !showSolution
-          ? <button
-            className="bg-indigo-500 text-white font-bold py-2 px-4 rounded-full my-5 block mx-auto hover:scale-105 hover:bg-indigo-700 transition-all duration-300"
-            onClick={() => setShowSolution(true)}
-          >Mostrar Solución</button>
+          ? <BtnSolution setShowSolution={setShowSolution} />
 
           : (
             <div className="w-[95%] md:w-4/5 mx-auto mt-8 text-xs md:text-lg border-[1px] border-solid border-gray-500 mb-10">
