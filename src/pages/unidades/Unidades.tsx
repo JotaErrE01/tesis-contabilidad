@@ -16,7 +16,7 @@ export const Unidades = () => {
             alt: 'Unidad 1',
             className: 'invert w-28 h-20 md:w-48 md:h-36'
           }}
-          className="bg-yellow-500 flex flex-col gap-10 items-center md:px-32 text-2xl md:text-4xl"
+          className="bg-yellow-500 flex flex-col gap-10 items-center md:px-32 text-2xl md:text-4xl w-4/5 md:w-auto"
           page='/unidad1'
         />
 
@@ -27,7 +27,7 @@ export const Unidades = () => {
             alt: 'Unidad 2',
             className: 'invert w-28 h-20 md:w-48 md:h-36'
           }}
-          className="bg-purple-500 flex flex-col gap-10 items-center md:px-32 text-2xl md:text-4xl"
+          className="bg-purple-500 flex flex-col gap-10 items-center md:px-32 text-2xl md:text-4xl w-4/5 md:w-auto"
           page='/unidad2'
         />
       </div>

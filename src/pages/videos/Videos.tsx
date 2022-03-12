@@ -27,7 +27,7 @@ export const Videos = () => {
           <Card
             className='bg-pink-500 w-[30rem] text-2xl lg:text-3xl'
             icoClass="fas fa-book text-6xl lg:text-7xl mb-5"
-            text="Libro Diario y Libro Mayo"
+            text="Libro Diario y Libro Mayor"
             page='/videoCard?url=https://www.youtube.com/embed/SCw71-zsyBo&title=Libro Diario y Mayor'
           />
 
