@@ -6,7 +6,9 @@ import {
   Unidad2,
   Videos,
   VideoCard,
-  Problemas
+  Problemas,
+  Juegos,
+  JuegoCard
 } from '../pages';
 
 export const DashboarbRoutes = () => {
@@ -20,9 +22,8 @@ export const DashboarbRoutes = () => {
         <Route path='videos' element={<Videos />} />
         <Route path='videoCard' element={<VideoCard />} />
         <Route path='problemas/*' element={<Problemas />} />
-        {/* <Route path='videos' element={<Videos />} /> */}
-        {/* <Route path='videos' element={<Videos />} /> */}
-        {/* <Route path='*' element={<Navigate to='/inicio' />} /> */}
+        <Route path='juegos' element={<Juegos />} />
+        <Route path='juegoCard' element={<JuegoCard />} />
         <Route path='*' element={<Navigate to="/" replace />} />
       </Routes>
     </>
