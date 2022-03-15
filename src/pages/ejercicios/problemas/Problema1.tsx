@@ -90,7 +90,7 @@ export const Problema1 = () => {
           ? <BtnSolution setShowSolution={setShowSolution} />
 
           : (
-            <div className="w-[95%] md:w-4/5 mx-auto mt-8 text-xs md:text-lg border-[1px] border-solid border-gray-500 mb-10">
+            <div className="w-[95%] md:w-4/5 mt-8 text-xs md:text-lg border-[1px] border-solid border-gray-500 mb-10">
               <div className="flex text-center justify-between border-t-[1px] border-solid border-gray-500">
                 <div className="border-r-[1px] border-solid border-gray-500 flex-1">
                   <p className="font-semibold my-2">ACTIVOS</p>

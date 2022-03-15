@@ -28,7 +28,7 @@ export const Inicio = () => {
             className='bg-green-500 w-[30rem] text-3xl'
             icoClass="fas fa-clipboard-list text-7xl mb-5"
             text="Evaluaciones"
-            page='/juegos'
+            page='/evaluaciones'
           />
 
           <Card
