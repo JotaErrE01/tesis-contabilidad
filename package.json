@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.2",
     "animate.css": "^4.1.1",
     "query-string": "^7.1.1",
     "react": "^17.0.2",

@@ -26,8 +26,8 @@ export const Evaluaciones = () => {
 
           <Card
             className='bg-teal-500 w-[30rem] text-2xl lg:text-3xl'
-            icoClass="fas fa-book text-6xl lg:text-7xl mb-5"
-            text="Libro Diario y Libro Mayor"
+            icoClass="fas fa-puzzle-piece text-6xl lg:text-7xl mb-5"
+            text="Sopa de Letras"
             page='/evaluacionCard?url=https://www.youtube.com/embed/SCw71-zsyBo&title=Libro Diario y Mayor'
           />
         </div>

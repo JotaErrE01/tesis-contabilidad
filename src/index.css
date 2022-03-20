@@ -4,8 +4,8 @@
 
 body {
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-  /* background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
@@ -14,14 +14,14 @@ body {
 
 #inicio {
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-  /* background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
 }
 
 #nav{
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8ff4e7 100%); */
-  /* background-image: linear-gradient(to top, #9ce0f1df 0%, #8cecdce7 100%); */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to top, #9ce0f1df 0%, #8cecdce7 100%);
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
   /* background-color: white; */
 }
 

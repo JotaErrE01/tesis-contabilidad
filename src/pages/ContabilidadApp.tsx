@@ -1,3 +1,4 @@
+import { Player } from '@lottiefiles/react-lottie-player';
 import { useNavigate } from 'react-router-dom';
 
 export const ContabilidadApp = () => {
@@ -24,6 +25,15 @@ export const ContabilidadApp = () => {
           <img className="relative z-10" src="./img/contabilidad.png" alt="Contabilidad" />
         </div>
       </div>
+
+      <Player
+        autoplay
+        loop
+        src="https://assets4.lottiefiles.com/packages/lf20_xx9zron9.json"
+        style={{ height: '250px', width: '250px' }}
+        className="absolute bottom-0 left-5 z-10 hidden md:block"
+      >
+      </Player>
 
       <img className="fixed bottom-0 object-cover h-[10rem] sm:h-auto" src="./svgs/wave.svg" alt="waves" />
     </div>
