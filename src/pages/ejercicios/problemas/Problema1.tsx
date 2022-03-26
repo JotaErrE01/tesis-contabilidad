@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { BtnSolution } from '../../../components/BtnSolution';
+// import { useState } from 'react';
+// import { BtnSolution } from '../../../components/BtnSolution';
 
 export const Problema1 = () => {
-  const [showSolution, setShowSolution] = useState(false);
+  // const [showSolution, setShowSolution] = useState(false);
 
   return (
     <div className='px-5 lg:px-0'>
@@ -85,7 +85,14 @@ export const Problema1 = () => {
         </ul>
       </div>
 
-      {
+      <button
+        className='px-5 py-2 mx-auto mt-10 mb-10 rounded-lg outline outline-3 outline-purple-500 flex text-purple-700 font-semibold hover:outline-transparent hover:text-white hover:bg-purple-700 transition-colors duration-300 ease-in-out'
+        onClick={() => {
+          window.open('https://ugye-my.sharepoint.com/:x:/g/personal/aron_almeidam_ug_edu_ec/EWB1oFv4FMFPqWRyXBent7wBKEkQRG809qsAtp_sM06EtA?rtime=H7PQnmUP2kg', '_blank', 'noopener,noreferrer');
+        }}
+      >Resolver en Excel</button>
+
+      {/* {
         !showSolution
           ? <BtnSolution setShowSolution={setShowSolution} />
 
@@ -153,7 +160,7 @@ export const Problema1 = () => {
               </div>
             </div>
             )
-      }
+      } */}
     </div>
   );
 };

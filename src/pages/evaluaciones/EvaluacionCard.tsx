@@ -17,7 +17,7 @@ export const EvaluacionCard = () => {
         className="text-center text-2xl md:text-4xl font-bold mb-10 mt-10 lg:mb-10"
       >{ title }</h1>
 
-      <iframe className='rounded w-4/5 h-[30rem] lg:h-auto md:w-3/5 aspect-video mx-auto mt-10 bg-slate-700' src={url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe className='rounded-lg w-4/5 h-[30rem] lg:h-[80vh] md:w-3/5 aspect-video mx-auto mt-10 bg-slate-700 shadow-md shadow-gray-500' src={url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
       {/* <p
         className="text-center text-xl md:text-2xl mb-10 mt-10 lg:mb-10 hover:cursor-pointer"

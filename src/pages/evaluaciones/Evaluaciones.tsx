@@ -28,7 +28,7 @@ export const Evaluaciones = () => {
             className='bg-teal-500 w-[30rem] text-2xl lg:text-3xl'
             icoClass="fas fa-puzzle-piece text-6xl lg:text-7xl mb-5"
             text="Sopa de Letras"
-            page='/evaluacionCard?url=https://www.youtube.com/embed/SCw71-zsyBo&title=Libro Diario y Mayor'
+            page='/evaluacionCard?url=https://es.educaplay.com/juego/11784721-conta.html&title=Completa la Sopa de Letras con tus Conocimientos'
           />
         </div>
       </div>

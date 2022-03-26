@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { BtnSolution } from '../../../components/BtnSolution';
-import { LibroDiarioSolution } from '../../../components/LibroDiarioSolution';
-import { LibroMayorSolution } from '../../../components/LibroMayorSolution';
-import { BalanceComprobacionSolucion } from '../../../components/BalanceComprobacionSolucion';
+// import { useState } from 'react';
+// import { BtnSolution } from '../../../components/BtnSolution';
+// import { LibroDiarioSolution } from '../../../components/LibroDiarioSolution';
+// import { LibroMayorSolution } from '../../../components/LibroMayorSolution';
+// import { BalanceComprobacionSolucion } from '../../../components/BalanceComprobacionSolucion';
 
 export const Problema2 = () => {
-  const [showSolution, setShowSolution] = useState(false);
+  // const [showSolution, setShowSolution] = useState(false);
 
   return (
     <div className='px-2 lg:px-0'>
@@ -100,7 +100,14 @@ export const Problema2 = () => {
           </li>
         </ul>
 
-        {
+        <button
+        className='px-5 py-2 mx-auto mt-10 mb-10 rounded-lg outline outline-3 outline-purple-500 flex text-purple-700 font-semibold hover:outline-transparent hover:text-white hover:bg-purple-700 transition-colors duration-300 ease-in-out'
+        onClick={() => {
+          window.open('https://ugye-my.sharepoint.com/:x:/g/personal/aron_almeidam_ug_edu_ec/Eb9S-QYBVNBBgBoZXmieuzUBXgcdv7Xc0nQQIlwQNcF74w?e=3wwbac&fbclid=IwAR3emRHs02yuAylHfsMX0Qxe8cHM08HuXn2io6NCl3eF7V8PiKBsYbNheX4', '_blank', 'noopener,noreferrer');
+        }}
+      >Resolver en Excel</button>
+
+        {/* {
           !showSolution
             ? <BtnSolution setShowSolution={setShowSolution} />
             : (
@@ -121,7 +128,7 @@ export const Problema2 = () => {
                 <BalanceComprobacionSolucion />
               </>
               )
-        }
+        } */}
       </div>
     </div>
   );
